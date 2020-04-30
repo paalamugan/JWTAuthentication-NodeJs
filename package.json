@@ -1,0 +1,25 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "Authentication Api with json web token",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize",
+    "express",
+    "json web token"
+  ],
+  "author": "Paalamugan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0"
+  }
+}
